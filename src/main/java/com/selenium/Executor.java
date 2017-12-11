@@ -15,7 +15,7 @@ import org.openqa.selenium.WebDriver;
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Features/Test1.feature",tags={"@done"},format = {"pretty", "html:target/Destination"})
+@CucumberOptions(features="Features/Test.feature",tags={"@done"},format = {"pretty", "html:target/Destination"})
 
 public class Executor {
 
